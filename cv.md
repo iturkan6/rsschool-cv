@@ -20,7 +20,7 @@ I am a software engineer with experience in designing, building, and maintaining
 - **Frameworks:** Spring Boot, FastAPI
 - **Databases:** PostgreSQL, MySQL, SQLAlchemy
 - **Tools & Technologies:** Hibernate, JUnit, Git, Docker, Apache Kafka, RabbitMQ, Celery, Dynatrace
-- **Web Development:** HTML, CSS
+- **Web Development:** HTML, CSS, JS
 
 ## Experience
 
