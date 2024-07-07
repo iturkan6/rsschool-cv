@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.photo {
+    text-align: center;
+}
+.photo img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.contact-info, .summary, .skills, .experience, .education, .english {
+    margin-bottom: 20px;
+}
+.contact-info ul, .skills ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-info li, .skills li {
+    margin-bottom: 10px;
+}
+.experience .job, .education .degree {
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+footer img {
+    max-width: 100px;
+}
