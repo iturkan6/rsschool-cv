@@ -7,100 +7,195 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <div class="photo">
-        <img src="assets/img/IMG_0217.JPEG" alt="John Doe">
-    </div>
-    <h1>Turkan Murad</h1>
-    <h1>You can call me Tina</h1>
-
-    <div class="contact-info">
-        <h2>Contact Information</h2>
-        <ul>
-            <li><strong>Email:</strong> iturkan6@gmail.com</li>
-            <li><strong>Phone:</strong> +48573339494</li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/iturkan6/">linkedin.com/in/iturkan6</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/iturkan6">github.com/iturkan6</a></li>
-            <li><strong>Discord:</strong> tina_01600_98416</li>
+<header>
+    <nav class="navigation">
+        <ul class="nav-bar">
+            <li class="nav-element"><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li class="nav-element"><a class="nav-link" href="#summary">Summary</a></li>
+            <li class="nav-element"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-element"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-element"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-element"><a class="nav-link" href="#languages">Languages</a></li>
         </ul>
-    </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <div class="photo">
+            <img src="assets/img/IMG_0217.JPEG" alt="John Doe">
+        </div>
+        <h1>Turkan Murad <br> You can call me Tina :)</h1>
 
-    <div class="summary">
-        <h2>Summary</h2>
-        <p>I am a software engineer with experience in designing, building, and maintaining scalable software solutions. My expertise includes Java, Spring Boot, PostgreSQL, Docker, and I am committed to staying up-to-date with the latest developments in the field. I have a track record of delivering innovative solutions that meet the unique needs of clients and end-users. I thrive in fast-paced, dynamic environments and am a firm believer in Agile development methodologies.</p>
-    </div>
-
-    <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> Java, Python, JavaScript, SQL</li>
-            <li><strong>Frameworks:</strong> Spring Boot, FastAPI</li>
-            <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLAlchemy</li>
-            <li><strong>Tools & Technologies:</strong> Hibernate, JUnit, Git, Docker, Apache Kafka, RabbitMQ, Celery, Dynatrace</li>
-            <li><strong>Web Development:</strong> HTML, CSS, JS</li>
-        </ul>
-    </div>
-
-    <div class="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Software Engineer</h3>
-            <p><strong>Cybernet LLC</strong> <br> 10/2022 - 08/2023 <br> Baku, Azerbaijan</p>
+        <div id="contacts" class="contact-info">
+            <h2>Contact Information</h2>
             <ul>
-                <li>Developed a documents management system for the Automated Tax Information System.</li>
-                <li>Utilized Java and Spring Boot to implement microservices for data storage and processing within the Government Tax Service.</li>
-                <li>Created a system to generate reports based on comprehensive tax document data.</li>
+                <li><strong>Email:</strong> iturkan6@gmail.com</li>
+                <li><strong>Phone:</strong> +48573339494</li>
+                <li><strong>LinkedIn:</strong> <a
+                        href="https://www.linkedin.com/in/iturkan6/">linkedin.com/in/iturkan6</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/iturkan6">github.com/iturkan6</a></li>
+                <li><strong>Discord:</strong> tina_01600_98416</li>
             </ul>
         </div>
 
-        <div class="job">
-            <h3>Java Developer</h3>
-            <p><strong>Mover.az</strong> <br> 02/2022 - 07/2022 <br> Baku, Azerbaijan</p>
+        <div id="summary" class="summary">
+            <h2>Summary</h2>
+            <p>I am a software engineer with experience in designing, building, and maintaining scalable software
+                solutions. My expertise includes Java, Spring Boot, PostgreSQL, Docker, and I am committed to staying
+                up-to-date with the latest developments in the field. I have a track record of delivering innovative
+                solutions that meet the unique needs of clients and end-users. I thrive in fast-paced, dynamic
+                environments and am a firm believer in Agile development methodologies.</p>
+        </div>
+
+        <div id="skills" class="skills">
+            <h2>Skills</h2>
             <ul>
-                <li>Collaborated with senior developers to implement parcel management systems using Java and Spring Boot.</li>
-                <li>Used Hibernate for object-relational mapping (ORM) to facilitate seamless data integration with relational databases.</li>
-                <li>Implemented comprehensive unit tests using JUnit to ensure code reliability and functionality.</li>
+                <li><strong>Programming Languages:</strong> Java, Python, JavaScript, SQL</li>
+                <li><strong>Frameworks:</strong> Spring Boot, FastAPI</li>
+                <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLAlchemy</li>
+                <li><strong>Tools & Technologies:</strong> Hibernate, JUnit, Git, Docker, Apache Kafka, RabbitMQ,
+                    Celery, Dynatrace
+                </li>
+                <li><strong>Web Development:</strong> HTML, CSS, JS</li>
             </ul>
         </div>
 
-        <div class="job">
-            <h3>Monitoring Engineer</h3>
-            <p><strong>International Bank of Azerbaijan</strong> <br> 10/2021 - 01/2022 <br> Baku, Azerbaijan</p>
-            <ul>
-                <li>Utilized Dynatrace and other technologies to quickly identify and report issues in the ABB Mobile bank application.</li>
-                <li>Collaborated with teams to minimize downtime and enhance system reliability for over 1 million users.</li>
-                <li>Analyzed monitoring data to optimize performance and drive efficiency.</li>
-            </ul>
+        <div id="code" class="code">
+            <h2>Code example</h2>
+            <pre>
+                <code>
+                    public boolean check(String sentence){
+                        for (int i = 97; i < 123; i++) {
+                            String s = String.valueOf((char) i).toLowerCase();
+                            if (!sentence.contains(s)) return false;
+                            }
+                    return true;
+                    }
+                </code>
+            </pre>
+
         </div>
 
-        <div class="job">
-            <h3>Back End Engineer Bootcamp</h3>
-            <p><strong>International Bank of Azerbaijan Innovation</strong> <br> 02/2020 - 06/2020 <br> Baku, Azerbaijan</p>
-            <ul>
-                <li>Designed and implemented a game algorithm for "Snake," achieving 3rd place out of 25 in efficiency score.</li>
-                <li>Created a fully functional flight booking system with a command line interface using Java, including unit tests with JUnit.</li>
-                <li>Collaborated in a team of five to develop MVPs for two applications: a Tinder-like app and a URL shortener, using Java, Spring Boot, and PostgreSQL.</li>
-            </ul>
+        <div id="experience" class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p><strong>Cybernet LLC</strong> <br> 10/2022 - 08/2023 <br> Baku, Azerbaijan</p>
+                <ul>
+                    <li>Developed a documents management system for the Automated Tax Information System.</li>
+                    <li>Utilized Java and Spring Boot to implement microservices for data storage and processing within
+                        the Government Tax Service.
+                    </li>
+                    <li>Created a system to generate reports based on comprehensive tax document data.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Java Developer</h3>
+                <p><strong>Mover.az</strong> <br> 02/2022 - 07/2022 <br> Baku, Azerbaijan</p>
+                <ul>
+                    <li>Collaborated with senior developers to implement parcel management systems using Java and Spring
+                        Boot.
+                    </li>
+                    <li>Used Hibernate for object-relational mapping (ORM) to facilitate seamless data integration with
+                        relational databases.
+                    </li>
+                    <li>Implemented comprehensive unit tests using JUnit to ensure code reliability and functionality.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Monitoring Engineer</h3>
+                <p><strong>International Bank of Azerbaijan</strong> <br> 10/2021 - 01/2022 <br> Baku, Azerbaijan</p>
+                <ul>
+                    <li>Utilized Dynatrace and other technologies to quickly identify and report issues in the ABB
+                        Mobile bank application.
+                    </li>
+                    <li>Collaborated with teams to minimize downtime and enhance system reliability for over 1 million
+                        users.
+                    </li>
+                    <li>Analyzed monitoring data to optimize performance and drive efficiency.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Back End Engineer Bootcamp</h3>
+                <p><strong>International Bank of Azerbaijan Innovation</strong> <br> 02/2020 - 06/2020 <br> Baku,
+                    Azerbaijan</p>
+                <ul>
+                    <li>Designed and implemented a game algorithm for "Snake," achieving 3rd place out of 25 in
+                        efficiency score.
+                    </li>
+                    <li>Created a fully functional flight booking system with a command line interface using Java,
+                        including unit tests with JUnit.
+                    </li>
+                    <li>Collaborated in a team of five to develop MVPs for two applications: a Tinder-like app and a URL
+                        shortener, using Java, Spring Boot, and PostgreSQL.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="project">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <a href="https://github.com/iturkan6/parcel-delivery-app"><h3>Parcel Delivery App</h3></a>
+                <h4>Overview:</h4>
+                <h5>The Parcel Delivery App is a microservices-based application designed to manage parcel deliveries
+                    efficiently. The application consists of three main microservices:
+                    <br>Auth-Service: Handles user authentication and authorization.
+                    <br>Order-Service: Manages orders, including creation, status updates, and assignments based on user
+                    roles (USER, COURIER, ADMIN).
+                    <br>Notification-Service: Sends email notifications to users about the status changes of their
+                    parcels using Kafka.
+                </h5>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/iturkan6/Paasword-Hacker"><h3>Password Hacker - MVP</h3></a>
+                <h4>Overview:</h4>
+                <h5>This project focuses on developing a Python program designed to hack passwords
+                    and gain unauthorized access to a secret server.
+                    It explores various hacking techniques to efficiently breach security and achieve the task.
+                </h5>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/iturkan6/cinema-room-REST-service"><h3>Cinema Room REST Service</h3></a>
+                <h4>Overview:</h4>
+                <h5>Always wanted to have your private movie theater and screen only the movies you like?
+                    You can buy a fancy projector and set it up in a garage, but how can you sell tickets?
+                    Having a booth is old-fashioned, so let's create a special service for that! Make good
+                    use of Spring and write a REST service that can show the available seats, sell and refund tickets,
+                    and display the statistics of your venue. Pass me the popcorn, please!
+                </h5>
+            </div>
+        </div>
+
+        <div id="education" class="education">
+            <h2>Education</h2>
+            <div class="degree">
+                <p><strong>Bachelor's Degree in Electronics, Telecommunication, and Radiotechnics Engineering</strong>
+                    <br> National Aviation Academy</p>
+            </div>
+        </div>
+
+        <div id="languages" class="english">
+            <h2>English Proficiency</h2>
+            <p><strong>Level:</strong> Advanced (C1)</p>
+            <p><strong>Experience:</strong> Completed multiple projects and coursework in English, participated in
+                international hackathons and coding competitions, actively involved in English-speaking online
+                communities.</p>
         </div>
     </div>
-
-    <div class="education">
-        <h2>Education</h2>
-        <div class="degree">
-            <p><strong>Bachelor's Degree in Electronics, Telecommunication, and Radiotechnics Engineering</strong> <br> National Aviation Academy</p>
-        </div>
-    </div>
-
-    <div class="english">
-        <h2>English Proficiency</h2>
-        <p><strong>Level:</strong> Advanced (C1)</p>
-        <p><strong>Experience:</strong> Completed multiple projects and coursework in English, participated in international hackathons and coding competitions, actively involved in English-speaking online communities.</p>
-    </div>
-</div>
+</main>
 <footer>
     <p>&copy; 2024 Turkan Murad</p>
     <p>GitHub: <a href="https://github.com/iturkan6">github.com/iturkan6</a></p>
-    <p>Course: <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/img/rs-school-logo.svg" alt="RS School"></a></p>
+    <p>Course: <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/img/rs-school-logo.svg"
+                                                                                alt="RS School"></a></p>
 </footer>
 </body>
 </html>
